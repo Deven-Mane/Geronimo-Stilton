@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url(cheese.png);
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#nav{
+    height: 110px;
+    padding: 0 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightsalmon;
+}
+
+#nav a:hover {
+    color: whitesmoke;
+}
+
+#nav img{
+    height: 80px;
+    margin-right: 170px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-part1 h4{
+    margin-right: 50px;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#nav-part1 a{
+    color: black;
+}
+
+
+#nav-part2 i{
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.content {
+    margin: 0 auto;
+    width: 95%;
+    height: calc(100% - 110px);
+    position: relative;
+    display: flex;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+#left{
+    height: 100%;
+    width: 40%;
+    padding: 185px 165px;
+}
+
+#left h5{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #535353;
+}
+
+#left h1{
+    margin-bottom: 50px;
+    line-height: 90px;
+    font-size: 85px;
+    text-transform: uppercase;
+}
+
+#left p{
+    margin-bottom: 60px;
+    font-size: 20px;
+    width: 70%;
+}
+
+#left button{
+    width: 35%;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 45px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    text-transform: uppercase;
+}
+
+#right{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+
+.elem img{
+    border-radius: 12px;
+    height: 580px;
+    width: 390px;
+    top: 7%;
+    object-fit: cover;
+    position: absolute;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.elem h4{
+    font-size: 20px;
+    position: absolute;
+    bottom: 32.5%;
+    left: 5%;
+    color: black;
+    background-color: lightpink;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+
+.elem a{
+    color: black;
+}
+
+.elem h5{
+    font-size: 20px;
+    position: absolute;
+    bottom: 37.5%;
+    left: 15%;
+    background-color: lavenderblush;
+    color: black;
+    font-weight: 700;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+
+.alam img{
+    border-radius: 12px;
+    height: 580px;
+    width: 390px;
+    top: 7%;
+    object-fit: cover;
+    position: absolute;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.alam h4{
+    font-size: 20px;
+    position: absolute;
+    bottom: 32.5%;
+    left: 39%;
+    color: black;
+    background-color: lightpink;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+
+.alam a{
+    color: black;
+}
+
+.alam h5{
+    font-size: 20px;
+    position: absolute;
+    bottom: 37.5%;
+    left: 47%;
+    background-color: lavenderblush;
+    color: black;
+    font-weight: 700;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+
+.blam img{
+    border-radius: 12px;
+    height: 580px;
+    width: 390px;
+    top: 7%;
+    object-fit: cover;
+    position: absolute;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 69%;
+}
+
+.blam h4{
+    font-size: 20px;
+    position: absolute;
+    bottom: 32.5%;
+    right: 4%;
+    color: black;
+    background-color: lightpink;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+
+.blam a{
+    color: black;
+}
+
+.blam h5{
+    font-size: 20px;
+    position: absolute;
+    bottom: 37.5%;
+    right: 4%;
+    background-color: lavenderblush;
+    color: black;
+    font-weight: 700;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+
+.clam h1 {
+    font-size: 20px;
+    position: absolute;
+    bottom: 20%;
+    left: 31%;
+    color: black;
+    padding: 17px 34px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.clam p {
+    text-align: center;
+    font-size: 23px;
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    color: black;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+ 
+
+
